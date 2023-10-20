@@ -466,6 +466,18 @@ class AI:
     def _check_model_access_and_fallback(self):
         """
         Retrieve the specified model, or fallback to "gpt-3.5-turbo" if the model is not available.
+    
+        This function attempts to retrieve the model specified by the 'model_name' attribute of the AI class. If the model is not available, it falls back to using the "gpt-3.5-turbo" model and updates the 'model_name' attribute accordingly.
+    
+        Parameters
+        ----------
+        None
+    
+        Returns
+        -------
+        None
+        """
+        Retrieve the specified model, or fallback to "gpt-3.5-turbo" if the model is not available.
 
         Parameters
         ----------
